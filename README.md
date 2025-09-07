@@ -1,7 +1,3 @@
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -39,11 +35,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -69,13 +62,13 @@ Key Highlights:
 ### Built With
 
 * [![React][React.js]][React-url]
-* Node.js
-* Express.js
-* [![MongoDB][MongoDB]]
-* Vite
-* Socket.IO
-* TailwindCSS
-* JWT
+* ![Node][Node]
+* ![Express][Express]
+* ![MongoDB][MongoDB]
+* ![Vite][Vite]
+* ![Socket.io][Socket.io]
+* ![Tailwind][Tailwind]
+* ![JWT][JWT]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,41 +91,51 @@ Follow the steps below to run the application locally.
    ```sh
    git clone https://github.com/st9phanie/MERN-Chat-App.git
    cd MERN-Chat-App
+   ```
+   
 2. Install server dependencies
-   ```sh
+  ```sh
   cd backend
-  npm init -y
+  npm install
+  ```
+  
 3. Create a .env file in the backend folder and add:
   ```sh
   MONGO_URI=your_mongodb_connection_string
   JWT_SECRET=your_jwt_secret
+  ```
+
 4. Run the sever
   ```sh
   npm run dev
+```
+
 5. Install frontend dependencies
   ```sh
   npm install
+```
 6. Run the frontend
   ```sh
   npm run dev
+````
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
 
-Register and log in with your credentials.
-Start a conversation with other users.
-Send and receive messages in real-time.
+* Register and log in with your credentials.
+* Start a conversation with other users.
+* Send and receive messages in real-time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Features
 
-✅ Real-time messaging and image sharing
-✅ User authentication (JWT)
-✅ Responsive UI
-✅ MongoDB for data persistence
-✅ Socket.IO for WebSocket communication
+* ✅ Real-time messaging and image sharing
+* ✅ User authentication (JWT)
+* ✅ Responsive UI
+* ✅ MongoDB for data persistence
+* ✅ Socket.IO for WebSocket communication
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,8 +146,8 @@ Distributed under the Unlicense License.
 
 ### Contact
 
-GitHub: st9phanie
-Project Link: 
+* GitHub: st9phanie
+* Project Link: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,3 +155,9 @@ Project Link:
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [MongoDB]: https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white
 [React-url]: https://reactjs.org/
+[Express]: https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=fff&style=flat
+[Node]: https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white
+[Vite]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white
+[Socket.io]: https://img.shields.io/badge/Socket.io-4.1.3-010101??style=flat-square&logo=Socket.io&logoColor=white
+[JWT]: https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens
+[Tailwind]: https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC
