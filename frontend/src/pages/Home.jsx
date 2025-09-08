@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
 import Sidebar from '../components/Sidebar'
 import RightSidebar from '../components/RightSidebar'
 import ChatContainer from '../components/ChatContainer'
+import { useContext } from 'react'
+import { ChatContext } from '../../context/ChatContext'
 
 const Home = () => {
 
-  const [selectedUser, setSelectedUser] = useState(false)
+  const{selectedUser} = useContext(ChatContext)
 
   return (
     <div className=' w-full h-screen sm:px-[12%] sm:py-[4%] text-white'>

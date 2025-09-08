@@ -10,9 +10,7 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <AuthProvider>
       <ChatProvider>
-        <StrictMode>
           <App />
-        </StrictMode>
       </ChatProvider>
     </AuthProvider>
   </BrowserRouter>,
